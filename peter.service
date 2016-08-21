@@ -1,0 +1,11 @@
+[Unit]
+Description=Peter-service Labor
+After=network.target
+
+[Service]
+ExecStart=/usr/sbin/peter.py start
+ExecStop=/usr/sbin/peter.py stop
+PIDFile=/var/run/peter.pid
+
+[Install]
+WantedBy=multi-user.target
