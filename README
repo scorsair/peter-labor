@@ -1,0 +1,12 @@
+PETER SERVICE
+Napalm, son. Nothing else in the world smells like that. I love the smell of napalm in the morning. You know, one time we had a hill bombed, for 12 hours. When it was all over, I walked up. We didn’t find one of 'em, not one stinkin' dink body. The smell, you know that gasoline smell, the whole hill. Smelled like… victory. Someday this war’s gonna end.
+
+SIMPLE HOW-TO:
+
+curl -H "Content-Type: application/json" -X POST -d '{"simple": "post"}' 0.0.0.0:80
+Log: /var/log/peter.log
+Pid: /var/run/peter.pid
+Config: /etc/peter.conf
+
+Requires: epel-release, python-flask, python-jinja2
+Tested in: Red Hat 4.4.7-17(CentOS6), Red Hat 4.8.3-9(CentOS7)
